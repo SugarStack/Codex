@@ -23,6 +23,45 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.flex-start { 
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.center-text { 
+    text-align: center; 
+}
+
+.block { 
+    display: block; 
+}
+
+.flex-center { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.center-img { 
+    display: block; 
+    margin: auto; 
+}
+
+.highlight { 
+    font-size: x-large; 
+}
+
+.wrap { 
+    flex-wrap: wrap; 
+}
+
+.mix, .mix2, .mix3 { 
+    margin-top: 1rem; 
+    padding: 15px; 
+    border-style: dotted dashed solid double; 
+    text-align: center; 
+}
+
+
 nav {
     position: fixed;
     top: 0;
@@ -432,14 +471,3 @@ blockquote {
         height: auto;
     }
 }
-
-/* Extraído desde HTML */
-
-.flex-start { display: flex; align-items: flex-start; }
-.center-text { text-align: center; }
-.block { display: block; }
-.flex-center { display: flex; justify-content: center; }
-.center-img { display: block; margin: auto; }
-.highlight { font-size: x-large; }
-.wrap { flex-wrap: wrap; }
-.mix, .mix2, .mix3 { margin-top: 1rem; padding: 15px; border-style: dotted dashed solid double; text-align: center; }
