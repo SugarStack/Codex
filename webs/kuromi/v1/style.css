@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(177, 166, 197);
+  background-image: url(img/lace-bg.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  margin: 50px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  width: 700px;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+.banner img:hover {
+  filter: brightness(1.2);
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+nav {
+  background-image: url(img/nav2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 700px;
+  height: 177px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.icon {
+  width: 60px;
+  transition: transform 0.4s ease;
+}
+
+.icon:hover {
+  transform: rotate(180deg);
+}
+
+article {
+  width: 750px;
+  background-color: rgba(58, 56, 56, 0.527);
+  border: 1px dashed rgb(73, 55, 77);
+  padding: 15px;
+  color: rgb(210, 206, 235);
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 35px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-wrapper {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#kuro1,
+#kuro2 {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: auto;
+  z-index: 1;
+}
+
+#kuro1 {
+  left: -190px;
+  top: -20px;
+}
+
+#kuro2 {
+  right: -190px;
+}
+
+#disc {
+  padding-right: 35px;
+  padding-left: 35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#kurow {
+  padding: 70px;
+}
+
+blockquote {
+  padding: 15px;
+  font-style: italic;
+}
+
+mark {
+  background-color: rgba(255, 14, 95, 0.308);
+  color: ghostwhite;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+    background-size: cover;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-size: contain;
+  }
+
+  .icon {
+    width: 40px;
+    margin: 10px;
+  }
+
+  article {
+    width: 100%;
+    font-size: 14px;
+    flex-direction: column;
+  }
+
+  .article-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  #kuro1,
+  #kuro2 {
+    position: static;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+  }
+
+  #disc {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #kurow {
+    padding: 30px;
+    text-align: center;
+  }
+
+  #kurow h1 {
+    font-size: 30px !important;
+  }
+}
