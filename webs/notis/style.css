@@ -432,3 +432,67 @@ blockquote {
         height: auto;
     }
 }
+
+/* Extraído desde HTML */
+
+.flex-start { display: flex; align-items: flex-start; }
+.center-text { text-align: center; }
+.block { display: block; }
+.flex-center { display: flex; justify-content: center; }
+.center-img { display: block; margin: auto; }
+.highlight { font-size: x-large; }
+.wrap { flex-wrap: wrap; }
+.mix, .mix2, .mix3 { margin-top: 1rem; padding: 15px; border-style: dotted dashed solid double; text-align: center; }
+
+
+/* Mejoras visuales para estilo noticiario */
+
+/* Optimización adicional estilo noticiario */
+
+.portada, .portada2 {
+    width: 90%;
+    max-width: 500px;
+}
+
+section {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+footer {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.sheldon, .urkel, .dr {
+    width: 180px;
+    height: 220px;
+}
+
+.container2 {
+    width: 40%;
+}
+
+.mons {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 5px;
+}
+
+@media screen and (orientation: portrait) {
+    section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
