@@ -1,11 +1,14 @@
+/* 🌸 Fondo general */
 body {
   background-color: rgb(177, 166, 197);
   background-image: url(img/lace-bg.png);
   background-repeat: repeat-y;
   background-position: center;
-  margin: 50px;
+  margin: 0;
+  padding: 50px 0;
 }
 
+/* 🖼️ Banner */
 .banner {
   display: flex;
   justify-content: center;
@@ -22,6 +25,7 @@ body {
   filter: brightness(1.2);
 }
 
+/* 🧭 Navegación */
 .navi {
   display: flex;
   justify-content: center;
@@ -51,19 +55,20 @@ nav {
   transform: rotate(180deg);
 }
 
+/* 📝 Artículos */
 article {
-  width: 750px;
+  max-width: 750px;
   background-color: rgba(58, 56, 56, 0.527);
   border: 1px dashed rgb(73, 55, 77);
   padding: 15px;
   color: rgb(210, 206, 235);
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   text-shadow: 2px 2px 2px black;
-  margin-bottom: 35px;
+  margin: 0 auto 35px auto;
 }
 
 article img {
@@ -71,9 +76,10 @@ article img {
   height: auto;
 }
 
+/* 📦 Contenedor de imágenes y disclaimer */
 .article-wrapper {
   position: relative;
-  width: fit-content;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -96,14 +102,15 @@ article img {
 }
 
 #disc {
-  padding-right: 35px;
-  padding-left: 35px;
+  padding: 0 35px;
   text-align: center;
   font-size: 18px;
 }
 
+/* 🌍 Título central */
 #kurow {
   padding: 70px;
+  text-align: center;
 }
 
 blockquote {
@@ -116,10 +123,10 @@ mark {
   color: ghostwhite;
 }
 
-
+/* 📱 Responsive */
 @media (max-width: 600px) {
   body {
-    margin: 20px;
+    padding: 20px 0;
     background-size: cover;
   }
 
