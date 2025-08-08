@@ -1,4 +1,4 @@
-/* 🌸 Fondo general */
+/* Fondo general */
 body {
   background-color: rgb(177, 166, 197);
   background-image: url(img/lace-bg.png);
@@ -8,7 +8,7 @@ body {
   padding: 50px 0;
 }
 
-/* 🖼️ Banner */
+/* Banner */
 .banner {
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
   filter: brightness(1.2);
 }
 
-/* 🧭 Navegación */
+/* Navegación */
 .navi {
   display: flex;
   justify-content: center;
@@ -55,7 +55,7 @@ nav {
   transform: rotate(180deg);
 }
 
-/* 📝 Artículos */
+/* Artículos */
 article {
   max-width: 750px;
   background-color: rgba(58, 56, 56, 0.527);
@@ -76,7 +76,7 @@ article img {
   height: auto;
 }
 
-/* 📦 Contenedor de imágenes y disclaimer */
+/* Contenedor de imágenes y disclaimer */
 .article-wrapper {
   position: relative;
   max-width: 750px;
@@ -107,7 +107,7 @@ article img {
   font-size: 18px;
 }
 
-/* 🌍 Título central */
+/* Título central */
 #kurow {
   padding: 70px;
   text-align: center;
@@ -123,7 +123,7 @@ mark {
   color: ghostwhite;
 }
 
-/* 📱 Responsive */
+/* Responsive */
 @media (max-width: 600px) {
   body {
     padding: 20px 0;
@@ -180,3 +180,4 @@ mark {
     font-size: 30px !important;
   }
 }
+
