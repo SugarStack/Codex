@@ -322,3 +322,119 @@ blockquote {
     font-weight: bold;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+    section,
+    footer {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding-top: 60px;
+    }
+
+    header {
+        font-size: 48px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    section,
+    footer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer img {
+        width: 60px;
+    }
+
+    .portada,
+    .portada2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+    .sheldon,
+    .urkel,
+    .dr {
+        width: 100%;
+        height: 200px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 4px;
+    }
+
+    #mix,
+    #mix2,
+    #mix3 {
+        margin: 10px auto;
+        padding: 10px;
+        width: 90%;
+    }
+
+    section > div {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    #art1,
+    #art2,
+    #art3 {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    .promo {
+        width: 100%;
+    }
+
+    .close {
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+    }
+}
